@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1> FOODIE'S DELIGHT </h1>
+    </div>
+  </header>
+  
+  <section class="menu-section">
+    <h2>Menu</h2>
+    <div id="menu" class="menu-container"></div>
+  </section>
+
+  <section class="cart-section">
+    <h3>My Cart</h3>
+    <ul id="cart" class="cart-list"></ul>
+    <!-- Display the total price here -->
+    <p id="totalAmount">Total: ₹0</p>
+    <button class="order-btn" onclick="placeOrder()">Place Order</button>
+  </section>
+
+  <footer>
+    <p>© 2024 Foodie's Delight | All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
